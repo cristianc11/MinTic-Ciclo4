@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:height="30sp"
+        android:background="#03A9F4"
+        android:text="                             Informacion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imagen_inicio" />
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="251dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:height="40px"
+                android:text="Informacion General de la Tienda"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textovacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tienda que ofrece a sus clientes las mejores chaquetas de la ciudad, comodas y de buena calidad" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefonos de contacto:  "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+57 3156789008 - 7986567" />
+
+            <TextView
+                android:id="@+id/texto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sitio web:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texto6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.shopjackets.com" />
+
+            <TextView
+                android:id="@+id/texto7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texto8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="shopjackets2021@gmail.com" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
